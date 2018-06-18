@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>test template</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body>
+    <section class="submenu">
+      <nav class="main-submenu">
+        <a class="submenu-item" href="">Item 1</a>
+        <a class="submenu-item" href="">Item 2</a>
+        <a class="submenu-item" href="">Item 3</a>
+        <a class="submenu-item" href="">Item 4</a>
+        <a class="submenu-item" href="">Item 5</a>
+        <a class="submenu-item" href="">Item 6</a>
+        <a class="submenu-item" href="">Item 7</a>
+        <a class="submenu-item" href="">Item 8</a>
+        <a class="submenu-item" href="">Item 9</a>
+        <a class="submenu-item" href="">Item 10</a>
+      </nav>
+
+      <div class="dropdown more-menu">
+        <a class="submenu-item dropdown-toggle" data-toggle="dropdown">
+          <i class="material-icons md-18">expand_more</i><span>More</span>
+        </a>
+        <div class="more-menu-contain"></div>
+      </div>
+
+      <div class="dropdown submenu-search">
+        <div class="submenu-search-wrap search">
+          <input type="text" placeholder="Search.." name="search"><a class="dropdown-toggle" data-toggle="dropdown"><i class="material-icons md-18">search</i></a>
+        </div>
+      </div>
+
+      <nav class="user-submenu avatar">
+        <div class="dropdown">
+          <a class="submenu-item dropdown-toggle" data-toggle="dropdown">
+            <i class="material-icons md-18">account_circle</i><span>very long username</span>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-left"><li><a href="#">long username</a></li></ul>
+        </div>
+      </nav>
+    </section>
+    <div style="height : 1000px"></div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
